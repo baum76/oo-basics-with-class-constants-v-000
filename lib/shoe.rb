@@ -15,10 +15,10 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS = brand
+    BRANDS << brand
   end
 
   def brand
     @brand
-  end  
+  end
 end
